@@ -1,0 +1,20 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "esse projeto é um conceito básico para melhor entender o NODE",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "Victor Bruno",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
